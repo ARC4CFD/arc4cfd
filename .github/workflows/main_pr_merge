@@ -1,0 +1,27 @@
+name: 'Rebuild ARC4CFD Website on PR Merge'
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - master
+
+jobs:
+  trigger_workflow:
+    if_merged:
+      if: github.event.pull_request.merged == true
+      runs-on: ubuntu-latest
+      steps:
+        - name: Trigger website workflow
+          uses: convictional/trigger-workflow-and-wait@v1.6.5
+          with:
+            owner: ARC4CFD
+            repo: arc4cfd.github.io
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            workflow_file_name: astro.yml
+            ref: master
+            wait_interval: 120
+            propagate_failure: true
+            trigger_workflow: true
+            wait_workflow: true

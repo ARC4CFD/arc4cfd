@@ -14,7 +14,7 @@ jobs:
         with:
           owner: ARC4CFD
           repo: arc4cfd.github.io
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
           workflow_file_name: astro.yml
           ref: master
           wait_interval: 120

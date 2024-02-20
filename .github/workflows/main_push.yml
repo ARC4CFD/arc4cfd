@@ -3,7 +3,7 @@ name: 'Rebuild ARC4CFD Website on Push'
 on:
   push:
     branches:
-      - main      
+      - master      
 
 jobs:
   trigger_workflow:

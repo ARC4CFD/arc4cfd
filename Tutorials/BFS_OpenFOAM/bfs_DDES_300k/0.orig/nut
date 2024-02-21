@@ -35,7 +35,7 @@ boundaryField
 
     "(wall_hor|wall_ver|wall_in)"
     {
-        type            nutUBlendedWallFunction;
+        type            nutUSpaldingWallFunction;
         value           uniform 0;
     }
     top

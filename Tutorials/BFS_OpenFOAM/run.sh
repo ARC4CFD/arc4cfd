@@ -5,5 +5,5 @@ gmshToFoam mesh/$mesh.msh -case $case
 cp $case/constant/polyMesh/boundary $case/constant/polyMesh/boundary.bkp
 cp mesh/boundary $case/constant/polyMesh/
 cd $case
-rm log.* proc*
+rm -r log.* proc*
 ./Allrun

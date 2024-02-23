@@ -1,7 +1,7 @@
 #uncomment only one of the following three lines to select the mesh
-#mesh=bfs_200k	# coarse mesh
+mesh=bfs_200k	# coarse mesh
 #mesh=bfs_400k	# intermediate mesh
-mesh=bfs_800k	# fine mesh
+#mesh=bfs_800k	# fine mesh
 
 
 case="$mesh"_DDES

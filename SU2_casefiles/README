@@ -2,4 +2,4 @@ Each folder contains mesh generation file (.geo), SU2 configuration (.cfg) file 
 In the results, reattachment corresponds to the graphic representation of spanwise averaged skin friction coefficient downstream of the step. Refer to Figure 3 in : Le, H., Moin, P., & Kim, J. (1997). Direct numerical simulation of turbulent flow over a backward-facing step. Journal of fluid mechanics, 330, 349-374.
 
 su2job.sh is the batch job script to be used in cluster nodes.
-
+The setup of the cases are detailed in Turbulent-flow-over-Backward-facing-step.pdf

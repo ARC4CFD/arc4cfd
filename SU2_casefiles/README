@@ -1,0 +1,4 @@
+Each folder contains mesh generation file (.geo), SU2 configuration (.cfg) file and sample results.
+
+su2job.sh is the batch job script to be used in cluster nodes.
+

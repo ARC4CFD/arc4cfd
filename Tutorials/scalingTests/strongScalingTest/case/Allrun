@@ -1,0 +1,18 @@
+#!/bin/sh
+cd "${0%/*}" || exit                                # Run from this directory
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions        # Tutorial run functions
+#------------------------------------------------------------------------------
+salloc -n 4 --time=0:30:0 --mem-per-cpu=3g
+
+cp -r 0.orig 0
+
+runApplication decomposePar
+
+runParallel $(getApplication)
+
+#runApplication reconstructPar
+
+rm -rf processor*
+
+exit
+#------------------------------------------------------------------------------

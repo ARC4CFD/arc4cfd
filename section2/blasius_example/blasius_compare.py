@@ -20,14 +20,12 @@ nice_fonts = {
 
 def set_size(width, fraction=1):
     """ Set aesthetic figure dimensions to avoid scaling in latex.
-
     Parameters
     ----------
     width: float
             Width in pts
     fraction: float
             Fraction of the width which you wish the figure to occupy
-
     Returns
     -------
     fig_dim: tuple
@@ -50,60 +48,27 @@ def set_size(width, fraction=1):
     fig_dim = (fig_width_in, fig_height_in)
 
     return fig_dim
-    
-    
+
+
 
 mpl.rcParams.update(nice_fonts)
 plt.figure(figsize=set_size(width))
 
-data6533_s=np.loadtxt("65x33/stretched/result.dat", unpack=True)
-data6533_u=np.loadtxt("65x33/uniform/result.dat", unpack=True)
-data6550_u=np.loadtxt("65x50/results.dat", unpack=True)
-data6565_s=np.loadtxt("65x65/stretched/result.dat", unpack=True)
-data6565_u=np.loadtxt("65x65/uniform/result.dat", unpack=True)
-data65130_u=np.loadtxt("65x130/results.dat", unpack=True)
+eta,fp,y,u=np.loadtxt("blasius_data.dat", unpack=True)
+print(u[1]/y[1])
 
-plt.plot(data6533_u[1],data6533_u[0],label="65x33 uniform", color="b", alpha=0.25, lw=2)
-plt.plot(data6565_u[1],data6565_u[0],label="65x65 uniform", color="b", alpha=0.5, lw=2)
-plt.plot(data65130_u[1],data65130_u[0],label="65x130 uniform", color="b", lw=2)
-
-
-plt.plot(data6533_s[1],data6533_s[0],label="65x33 stretched", color="r", alpha=0.25, lw=2)
-plt.plot(data6550_u[1],data6550_u[0],label="65x50 stretched", color="r", alpha=0.5, lw=2)
-plt.plot(data6565_s[1],data6565_s[0],label="65x65 stretched", color="r", alpha=1, lw=2)
+plt.plot(u*69,y, color="b", lw=3,label="Blasius solution")
+plt.plot(y*u[1]/y[1]*69,y, "k:", lw=1,label="slope at wall")
+plt.plot([u[5]*69,u[5]*69],[0,y[5]], "r:", lw=1)
+plt.text(r"$\eta=1$",0.38,0.0002)
+plt.plot(y*u[13]/y[13]*69,y, "k", lw=1,label=r"slope with first point at $\eta=2$")
+plt.scatter(u[13]*69,y[13],color="k")
 plt.xlabel(r"U")
 plt.ylabel(r"y")
 plt.legend()
-plt.ylim(0,0.00185)
-plt.xlim(0,1.1)
-plt.tight_layout()
-plt.savefig("ARC4CFD_compareBL.png")
-
-
-
-
-data6533_s=np.loadtxt("65x33/stretched/resultT.dat", unpack=True)
-data6533_u=np.loadtxt("65x33/uniform/resultT.dat", unpack=True)
-data6550_u=np.loadtxt("65x50/results.dat", unpack=True)
-data6565_s=np.loadtxt("65x65/stretched/resultT.dat", unpack=True)
-data6565_u=np.loadtxt("65x65/uniform/resultT.dat", unpack=True)
-data65130_u=np.loadtxt("65x130/resultT.dat", unpack=True)
-
-
-plt.figure(figsize=set_size(width))
-plt.plot(data6533_u[1],data6533_u[0],label="65x33 uniform", color="b", alpha=0.25, lw=2)
-plt.plot(data6565_u[1],data6565_u[0],label="65x65 uniform", color="b", alpha=0.5, lw=2)
-plt.plot(data65130_u[1],data65130_u[0],label="65x130 uniform", color="b", lw=2)
-
-
-plt.plot(data6533_s[1],data6533_s[0],label="65x33 stretched", color="r", alpha=0.25, lw=2)
-#plt.plot(data6550_u[1],data6550_u[0],label="65x50 stretched", color="r", alpha=0.5, lw=2)
-plt.plot(data6565_s[1],data6565_s[0],label="65x65 stretched", color="r", alpha=1, lw=2)
-plt.xlabel(r"T")
-plt.ylabel(r"y")
+plt.ylim(0,0.0012)
+plt.xlim(0,1)
 plt.legend()
-plt.ylim(0,0.00185)
-plt.xlim(0.5,1.1)
 plt.tight_layout()
-plt.savefig("ARC4CFD_compareBL_T.png")
+plt.savefig("ARC4CFD_blasius.png")
 plt.show()

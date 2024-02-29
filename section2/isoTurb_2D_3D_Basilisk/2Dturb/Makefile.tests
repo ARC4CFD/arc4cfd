@@ -1,0 +1,10 @@
+# Automatically generated using 'make Makefile.tests'
+# DO NOT EDIT, edit 'Makefile' instead
+ALLTESTS = \
+
+TESTS = \
+
+SPECIAL_TESTS = \
+
+ALLPAGES = \
+

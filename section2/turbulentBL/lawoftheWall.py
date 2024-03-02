@@ -20,12 +20,14 @@ nice_fonts = {
 
 def set_size(width, fraction=1):
     """ Set aesthetic figure dimensions to avoid scaling in latex.
+
     Parameters
     ----------
     width: float
             Width in pts
     fraction: float
             Fraction of the width which you wish the figure to occupy
+
     Returns
     -------
     fig_dim: tuple
@@ -48,47 +50,38 @@ def set_size(width, fraction=1):
     fig_dim = (fig_width_in, fig_height_in)
 
     return fig_dim
-
-
+    
+    
 
 mpl.rcParams.update(nice_fonts)
-plt.figure(figsize=set_size(width))
+fig= plt.figure(figsize=set_size(width))
+ax = fig.add_subplot(1,1,1)
+ubuffer=np.linspace(0,14,100)
+ylog=np.linspace(5,1000,2000)
+#plt.plot(ubuffer,ubuffer,label="u_\tau=y^+", color="r", lw=2)
+#plt.plot(5.6*np.log(ylog)+4.9,ylog,label="u_\tau=y^+", color="r", lw=2)
+plt.semilogx(ubuffer,ubuffer,label=r"$u^*=y^+$")
+plt.semilogx(ylog,5.6*np.log10(ylog)+4.9,label=r"$5.6 \log(y^+)+4.9$")
+plt.xlim(1,900)
+plt.ylabel(r"$u^*$")
+plt.xlabel(r"$y^+$")
+plt.legend()
 
-N=600
-y=np.zeros(N)
-utau=0.5
-nu=1.8205E-5 #%kg/(m*s)
-dt=1E-5
-yplus=1 
-yfirstpoint=yplus*nu/utau
+plt.grid(which='both')
 
-expansionList=[1.01, 1.025, 1.05, 1.1, 1.2]
+plt.tight_layout()
+plt.savefig("ARC4CFD_lawoftheWall_semiLog.svg")
 
-fig, ax1 = plt.subplots()
-ax2 = ax1.twinx()
+fig= plt.figure(figsize=set_size(width))
+plt.plot(ubuffer,ubuffer,label=r"$u^*=y^+$")
+plt.plot(ylog,5.6*np.log10(ylog)+4.9,label=r"$5.6 \log(y^+)+4.9$")
+plt.xlim(1,100)
+plt.ylabel(r"$u^*$")
+plt.xlabel(r"$y^+$")
+plt.legend()
 
-for expansionRatio in expansionList:
-  print(expansionRatio)
-  y[0]=0
-  y[1]=yfirstpoint
-  for i in range(2,N):
-    y[i]=(y[i-1]-y[i-2])*expansionRatio+y[i-1]
+plt.grid(which='both')
 
-  u=utau*8.7*(y*utau/nu)**(1./7.)
-  ax2.plot(u[:-1],u[:-1]*dt/(y[1:]-y[:-1]), ":", label="expansion="+str(expansionRatio))
-
-
-
-ax1.plot(u,y, color="b", lw=3,label="Turbulent profile (1/7th law)")
-
-ax1.set_xlabel(r"U")
-ax1.set_ylabel(r"y")
-ax2.set_ylabel("CFL")
-ax1.set_xlim(0,20)
-ax1.set_ylim(0,1.5)
-fig.legend() 
-#%plt.xlim(0,1)
-fig.tight_layout()
-
-plt.savefig("ARC4CFD_turbBL.png")
+plt.tight_layout()
+plt.savefig("ARC4CFD_lawoftheWall.svg")
 plt.show()

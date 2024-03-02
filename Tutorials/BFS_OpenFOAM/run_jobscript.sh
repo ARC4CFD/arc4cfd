@@ -1,11 +1,13 @@
 #!/bin/bash
-#SBATCH --nodes=2
-#SBATCH --mem=200000M
-#SBATCH --ntasks-per-node=32
-#SBATCH --time=0-20:00
-#SBATCH --job-name="bfs_DDES"          # job name
-#SBATCH --output=bfs%j.txt
-#SBATCH --mail-type=FAIL
+#SBATCH --job-name="bfs_DDES"      # job name
+
+#SBATCH --ntasks=64                # number of processors
+#SBATCH --nodes=2-8                # number of nodes
+#SBATCH --mem-per-cpu=3g           # memory per cpu
+
+#SBATCH --time=0-20:00             # walltime dd-hh-mm
+#SBATCH --output=bfs%j.txt         # output file
+#SBATCH --mail-type=FAIL           
 
 
 cd $SLURM_SUBMIT_DIR

@@ -1,1 +1,3 @@
-S
+Strong and weak scaling analysis results are added here.
+Strong_Scaling.xlsx contains the follwowing data: (1) wall-time for each core count wrt iteration (0 - 749), (2) results (speedup, efficiency) and (3) Repeatability test
+Weak_Scaling.xlsx contains the follwowing data: (1) wall-time for each core count wrt iteration (0 - 749) and (2) results (speedup)

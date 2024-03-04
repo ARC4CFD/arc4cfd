@@ -1,0 +1,409 @@
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 0] = [0]
+/src/utils.h:8: '1e30 [0,1]': [/src/utils.h:8: 'DT = 1e30 [0,1]' 1] = [0,1]
+/src/utils.h:8: '0.5 [0]': [/src/utils.h:8: 'CFL = 0.5 [0]' 2] = [0]
+/src/utils.h:213: '1.3 [0]': [/src/utils.h:213: 'theta = 1.3 [0]' 3] = [0]
+ast/interpreter/overload.h:512: '3.14159265358979 [0]': [ast/interpreter/overload.h:512: 'M_PI = 3.14159265358979 [0]' 4] = [0]
+/src/viscosity.h:132: 'r.x[] - ((coord){1.,1.,1.}).x*u.x[]': [/src/viscosity.h:132: '1.' 5] = [0]
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 6] = [0]
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 7] = [0]
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 8] = [0]
+/src/viscosity.h:132: 'r.y[] - ((coord){1.,1.,1.}).y*u.y[]': [/src/viscosity.h:132: '1.' 9] = [0]
+/src/viscosity.h:132: 'r.z[] - ((coord){1.,1.,1.}).z*u.z[]': [/src/viscosity.h:132: '1.' 10] = [0]
+/src/poisson.h:193: 'resb/s.resa < 1.2': [/src/poisson.h:193: '1.2' 11] = [0]
+/src/poisson.h:195: 'resb/s.resa > 10': [/src/poisson.h:195: '10' 12] = [0]
+/src/poisson.h:195: 'resb/s.resa > 10': [/src/poisson.h:195: '10' 13] = [0]
+/src/poisson.h:193: 'resb/s.resa < 1.2': [/src/poisson.h:193: '1.2' 14] = [0]
+/src/viscosity.h:132: 'r.z[] - ((coord){1.,1.,1.}).z*u.z[]': [/src/viscosity.h:132: '1.' 15] = [0]
+/src/viscosity.h:132: 'r.y[] - ((coord){1.,1.,1.}).y*u.y[]': [/src/viscosity.h:132: '1.' 16] = [0]
+/src/common.h:1261: '1.[0]': [/src/common.h:1261: '1.[0]' 17] = [0]
+/src/common.h:1261: '1.[0]': [/src/common.h:1261: '1.[0]' 18] = [0]
+/src/common.h:1261: '1.[0]': [/src/common.h:1261: '1.[0]' 19] = [0]
+/src/common.h:1262: '1.[0]': [/src/common.h:1262: '1.[0]' 20] = [0]
+/src/viscosity.h:132: 'r.x[] - ((coord){1.,1.,1.}).x*u.x[]': [/src/viscosity.h:132: '1.' 21] = [0]
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 22] = [0]
+ast/interpreter/overload.h:337: '0[0]': [ast/interpreter/overload.h:337: '*c = 0[0]' 23] = [0]
+/src/poisson.h:88: 's[] += ds[]': [/src/viscosity.h:56: '1.' 24] = [0]
+/src/viscosity.h:132: 'r.z[] - ((coord){1.,1.,1.}).z*u.z[]': [/src/viscosity.h:132: '1.' 25] = [0]
+isotropic.c:51: '3.14159265358979 [1]': [isotropic.c:51: 'L0 = 2.*3.14159265358979 [1]' 26] = [1]
+/src/viscosity.h:132: 'r.y[] - ((coord){1.,1.,1.}).y*u.y[]': [/src/viscosity.h:132: '1.' 27] = [0]
+/src/viscosity.h:132: 'r.x[] - ((coord){1.,1.,1.}).x*u.x[]': [/src/viscosity.h:132: '1.' 28] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 29] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 30] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 31] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 32] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 33] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 34] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 35] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 36] = [0]
+/src/bcg.h:37: 's + 1.': [/src/bcg.h:37: '1.' 37] = [0]
+ast/interpreter/overload.h:469: 'a > b': [/src/common.h:397: '4096' 38] = [0]
+ast/interpreter/overload.h:469: 'a > b': [/src/poisson.h:435: '1' 39] = [0]
+ast/interpreter/overload.h:469: 'a > b': [/src/poisson.h:435: '1' 40] = [0]
+/src/navier-stokes/centered.h:287: 's + 1.': [/src/navier-stokes/centered.h:287: '1.' 41] = [0]
+/src/navier-stokes/centered.h:287: 's + 1.': [/src/navier-stokes/centered.h:287: '1.' 42] = [0]
+/src/navier-stokes/centered.h:287: 's + 1.': [/src/navier-stokes/centered.h:287: '1.' 43] = [0]
+/src/common.h:856: '1. [1]': [/src/common.h:856: 'L0 = 1. [1]' 44] = [1]
+/src/grid/multigrid-common.h:440: 'sum += size[]': [/src/grid/multigrid-common.h:429: 'size[] = 1' 45] = [0]
+/src/utils.h:169: 'f[] > max':  + [isotropic.c:73: 'u0 = 1.' 46] - [/src/utils.h:162: 'max = -1e100' 47] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 50] + [/src/utils.h:162: 'max = -1e100' 47] = [0]
+isotropic.c:105: 't <= 300':  + [/src/grid/events.h:6: 'TEND_EVENT = 1234567890' 48] - [isotropic.c:105: '300' 49] = [0]
+isotropic.c:140: 't += 0.25':  - [isotropic.c:140: '0.25' 90] + [isotropic.c:105: '300' 49] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 59] + [/src/bcg.h:53: '0.' 50] = [0]
+ast/interpreter/overload.h:93: 'dt + 1e30': [ast/interpreter/overload.h:93: '1e30' 51] = [0,1]
+/src/maxruntime.h:22: '_maxruntime - 300':  + [/src/maxruntime.h:18: '_maxruntime = 1e30' 52] - [/src/maxruntime.h:22: '300' 53] = [0]
+/src/maxruntime.h:22: 'perf.t >= _maxruntime - 300':  + [/src/utils.h:24: '0' 54] - [/src/maxruntime.h:22: '300' 53] = [0]
+/src/maxruntime.h:32: 'if (i + 1 < *argc) {
+ char * s = strtok (argv[i + 1], ":");
+ int n = 0;
+ _maxruntime = 0;
+ do {
+   _maxruntime = 60*_maxruntime + atoi(s);
+   n++;
+ } while ((s = strtok (NULL, ":")));
+ if (n > 3) {
+   fprintf (ferr, "maxruntime: TIME format must be H:M:S\n");
+   exit (1);
+ }
+      }
+      else {
+ fprintf (ferr, "usage: %s TIME\n", argv[i]);
+ exit (1);
+      }':  + [/src/maxruntime.h:35: '_maxruntime = 0' 156] - [/src/utils.h:24: '0' 54] = [0]
+/src/poisson.h:88: 's[] += ds[]':  + [ast/interpreter/overload.h:168: 'p[] = 0.' 55] - [/src/poisson.h:58: 's[] = 0.' 56] = [0]
+/src/poisson.h:88: 's[] += ds[]':  + [/src/poisson.h:58: 's[] = 0.' 56] - [/src/poisson.h:58: 's[] = 0.' 80] = [0]
+/src/maxruntime.h:20: '{
+  mpi_all_reduce (perf.t, MPI_DOUBLE, MPI_MAX);
+  if (perf.t >= _maxruntime - 300) {
+    dump ( "restart", all, NULL, false);
+    {end_tracing("runtime","/Users/jean-pierrehickey/local/basilisk/src/maxruntime.h",0);return 1;}
+  }
+}{end_tracing("runtime","/Users/jean-pierrehickey/local/basilisk/src/maxruntime.h",0);return 0;}':  + [/src/maxruntime.h:24: '1' 57] - [/src/maxruntime.h:26: '0' 58] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 66] + [/src/utils.h:165: '1e30' 59] = [0]
+/src/utils.h:169: 'f[] > max':  - [/src/utils.h:162: 'max = -1e100' 60] + [/src/utils.h:165: '1e30' 66] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 61] + [/src/utils.h:165: '1e30' 66] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 62] - [/src/utils.h:174: '0.' 63] = [0]
+/src/utils.h:175: 'sum2 -= sum*sum/volume':  - 2*[/src/utils.h:162: 'sum = 0.' 192] + [/src/utils.h:162: 'sum2 = 0.' 64] + [/src/utils.h:174: '0.' 63] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 64] - [/src/utils.h:176: '0.' 65] = [0]
+isotropic.c:117: 'u.x[] - ubar.x':  + [/src/utils.h:162: 'sum = 0.' 192] + [/src/utils.h:165: '1e30' 66] - [/src/utils.h:176: '0.' 65] = [0]
+/src/utils.h:169: 'f[] > max':  - [/src/utils.h:162: 'max = -1e100' 74] + [/src/utils.h:165: '1e30' 66] = [0]
+/src/viscosity.h:152: 'fabs (res.x[]) > maxres':  - [/src/viscosity.h:92: 'maxres = 0.' 67] + [/src/utils.h:162: 'max = -1e100' 74] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 68] + [/src/utils.h:162: 'max = -1e100' 74] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 69] - [/src/utils.h:174: '0.' 70] = [0]
+isotropic.c:117: 'u.y[] - ubar.y':  - [/src/utils.h:162: 'sum = 0.' 245] + [/src/utils.h:162: 'max = -1e100' 74] + [/src/utils.h:174: '0.' 70] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 71] - [/src/utils.h:176: '0.' 72] = [0]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.':  - [/src/utils.h:176: '0.' 252] - 0.5*[/src/utils.h:162: 'sum = 0.' 245] + 0.5*[/src/utils.h:162: 'max = -1e100' 74] + 0.5*[/src/utils.h:176: '0.' 72] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 73] + [/src/utils.h:162: 'max = -1e100' 74] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 101] - [/src/utils.h:162: 'max = -1e100' 74] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 75] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 101] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 76] - [/src/utils.h:174: '0.' 77] = [0]
+isotropic.c:117: 'u.z[] - ubar.z':  - [/src/utils.h:162: 'sum = 0.' 244] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 101] + [/src/utils.h:174: '0.' 77] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 78] - [/src/utils.h:176: '0.' 79] = [0]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.':  - [/src/utils.h:176: '0.' 248] - 0.5*[/src/utils.h:162: 'sum = 0.' 244] + 0.5*[/src/grid/multigrid-common.h:28: 'sum = 0.' 101] + 0.5*[/src/utils.h:176: '0.' 79] = [0]
+/src/poisson.h:376: 'fabs (res[]) > maxres':  + [/src/poisson.h:410: '0.' 225] - [/src/poisson.h:344: 'maxres = 0.' 229] + [/src/poisson.h:58: 's[] = 0.' 80] = [0]
+ast/interpreter/overload.h:549: 'e->t == t':  + [isotropic.c:140: 't = 140' 81] - [/src/run.h:16: 't = 0.' 82] = [0]
+ast/interpreter/overload.h:539: 't == DT': [/src/run.h:16: 't = 0.' 82] = [0,1]
+ast/interpreter/overload.h:491: 'x > b':  + [isotropic.c:142: '44' 83] - [/src/draw.h:71: '100.' 85] = [0]
+ast/interpreter/overload.h:491: 'x < a':  - [/src/draw.h:71: '0.01' 84] + [/src/draw.h:71: '100.' 85] = [0]
+/src/draw.h:169: 'far > near':  + [/src/draw.h:57: '0.' 86] - [/src/draw.h:57: '0.' 87] = [0]
+/src/timestep.h:18: 'dtmax > previous': [/src/timestep.h:4: 'previous = 0.' 88] = [0,1]
+/src/utils.h:286: '_const_cm + 0.': [/src/utils.h:286: '0.' 89] = [0]
+/src/grid/events.h:32: 't == - TEND_EVENT':  + [isotropic.c:140: 't = 140' 96] - [isotropic.c:140: '0.25' 90] = [0]
+isotropic.c:140: '( t += 0.25)!=0':  - [isotropic.c:140: '0' 91] + [isotropic.c:140: 't = 140' 96] = [0]
+isotropic.c:140: 't += 0.25':  - [isotropic.c:140: '0.25' 92] + [isotropic.c:140: 't = 140' 96] = [0]
+/src/navier-stokes/centered.h:412: '_const_fm.x + _const_fm.x + 0.': [/src/navier-stokes/centered.h:412: '0.' 93] = [0]
+isotropic.c:140: '( t += 0.25)!=0':  - [isotropic.c:140: '0' 94] + [isotropic.c:140: 't = 140' 96] = [0]
+isotropic.c:140: 't <= 225':  - [isotropic.c:140: '225' 95] + [isotropic.c:140: 't = 140' 96] = [0]
+/src/grid/events.h:65: 'ev->t == TEND_EVENT':  + [isotropic.c:140: 't = 140' 106] - [isotropic.c:140: 't = 140' 96] = [0]
+isotropic.c:140: '(t = 140)!=0':  - [isotropic.c:140: '0' 97] + [isotropic.c:140: 't = 140' 106] = [0]
+/src/viscosity.h:38: '2.*_const_mu.x*u.x[1] + 2.*_const_mu.x*u.x[-1]
+
+      + _const_mu.y*(u.x[0,1] +
+     (u.y[1] + u.y[1,1])/4. -
+     (u.y[-1] + u.y[-1,1])/4.)
+      - _const_mu.y*(- u.x[0,-1] +
+         (u.y[1,-1] + u.y[1])/4. -
+         (u.y[-1,-1] + u.y[-1])/4.)
+
+
+      + _const_mu.z*(u.x[0,0,1] +
+       (u.z[1] + u.z[1,0,1])/4. -
+       (u.z[-1] + u.z[-1,0,1])/4.)':  + [/src/poisson.h:58: 's[] = 0.' 98] - [/src/poisson.h:58: 's[] = 0.' 99] = [0]
+/src/viscosity.h:48: 'u.x[0,0,1] +
+       (u.z[1] + u.z[1,0,1])/4.':  + [/src/poisson.h:58: 's[] = 0.' 100] - [/src/poisson.h:58: 's[] = 0.' 99] = [0]
+/src/viscosity.h:48: 'u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4.':  - [/src/grid/multigrid-common.h:28: 'sum = 0.' 101] + [/src/poisson.h:58: 's[] = 0.' 100] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 113] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 101] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 102] - [/src/utils.h:165: '1e30' 113] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 103] - [/src/utils.h:165: '1e30' 113] = [0]
+isotropic.c:140: '(t = 140)!=0':  + [isotropic.c:140: 't = 140' 104] - [isotropic.c:140: '0' 105] = [0]
+/src/grid/events.h:42: 't1 == t':  - [isotropic.c:140: 't = 140' 106] + [isotropic.c:140: '0' 105] = [0]
+/src/run.h:50: '(t = TEND_EVENT)!=0':  - [/src/run.h:50: '0' 111] + [isotropic.c:140: 't = 140' 106] = [0]
+isotropic.c:140: '(t = 140)!=0':  - [isotropic.c:140: '0' 107] + [/src/run.h:50: '0' 111] = [0]
+/src/viscosity.h:152: 'fabs (res.x[]) > maxres':  - [/src/viscosity.h:92: 'maxres = 0.' 108] + [/src/utils.h:165: '1e30' 113] = [0]
+/src/run.h:50: '(t = TEND_EVENT)!=0':  - [/src/run.h:50: '0' 109] + [/src/run.h:50: '0' 111] = [0]
+/src/run.h:50: '(t = TEND_EVENT)!=0':  - [/src/run.h:50: '0' 110] + [/src/run.h:50: '0' 111] = [0]
+/src/grid/events.h:65: 'ev->t == TEND_EVENT': [/src/run.h:50: '0' 111] = [0,1]
+isotropic.c:88: 't <= 150': [isotropic.c:88: '150' 112] = [0,1]
+/src/navier-stokes/centered.h:291: 'u.y[i] < 0.':  - [/src/navier-stokes/centered.h:291: '0.' 121] + [/src/utils.h:165: '1e30' 113] = [0]
+/src/timestep.h:18: 'dtmax > previous': [/src/timestep.h:4: 'previous = 0.' 114] = [0,1]
+ast/interpreter/overload.h:93: 'dt + 1e30': [ast/interpreter/overload.h:93: '1e30' 115] = [0,1]
+ast/interpreter/overload.h:94: 'dt + 1e30': [ast/interpreter/overload.h:94: '1e30' 116] = [0,1]
+/src/viscosity.h:38: '2.*_const_mu.x*u.x[1] + 2.*_const_mu.x*u.x[-1]
+
+      + _const_mu.y*(u.x[0,1] +
+     (u.y[1] + u.y[1,1])/4. -
+     (u.y[-1] + u.y[-1,1])/4.)
+      - _const_mu.y*(- u.x[0,-1] +
+         (u.y[1,-1] + u.y[1])/4. -
+         (u.y[-1,-1] + u.y[-1])/4.)
+
+
+      + _const_mu.z*(u.x[0,0,1] +
+       (u.z[1] + u.z[1,0,1])/4. -
+       (u.z[-1] + u.z[-1,0,1])/4.)':  - [/src/viscosity.h:56: '1.' 119] + [/src/viscosity.h:56: '1.' 117] = [0]
+/src/navier-stokes/centered.h:412: '_const_fm.y + _const_fm.y + 0.': [/src/navier-stokes/centered.h:412: '0.' 118] = [0]
+/src/viscosity.h:48: 'u.z[0,1] +
+       (u.y[0,0,1] + u.y[0,1,1])/4.':  - [/src/viscosity.h:56: '1.' 129] + [/src/viscosity.h:56: '1.' 119] = [0]
+/src/utils.h:169: 'f[] > max':  - [/src/utils.h:162: 'max = -1e100' 120] + [/src/navier-stokes/centered.h:291: '0.' 121] = [0]
+/src/navier-stokes/centered.h:291: 'u.z[0,i] < 0.':  - [/src/navier-stokes/centered.h:291: '0.' 125] + [/src/navier-stokes/centered.h:291: '0.' 121] = [0]
+/src/navier-stokes/centered.h:297: 'u.z[i] < 0.':  - [/src/navier-stokes/centered.h:297: '0.' 122] + [/src/navier-stokes/centered.h:291: '0.' 125] = [0]
+/src/viscosity.h:38: '2.*_const_mu.y*u.y[0,1] + 2.*_const_mu.y*u.y[0,-1]
+
+      + _const_mu.z*(u.y[0,0,1] +
+     (u.z[0,1] + u.z[0,1,1])/4. -
+     (u.z[0,-1] + u.z[0,-1,1])/4.)
+      - _const_mu.z*(- u.y[0,0,-1] +
+         (u.z[0,1,-1] + u.z[0,1])/4. -
+         (u.z[0,-1,-1] + u.z[0,-1])/4.)
+
+
+      + _const_mu.x*(u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4. -
+       (u.x[0,-1] + u.x[1,-1])/4.)':  - [/src/viscosity.h:56: '1.' 129] + [/src/viscosity.h:56: '1.' 123] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 124] + [/src/navier-stokes/centered.h:291: '0.' 125] = [0]
+/src/navier-stokes/centered.h:291: 'u.x[0,0,i] < 0.':  - [/src/navier-stokes/centered.h:291: '0.' 132] + [/src/navier-stokes/centered.h:291: '0.' 125] = [0]
+/src/navier-stokes/centered.h:297: 'u.x[0,i] < 0.':  - [/src/navier-stokes/centered.h:297: '0.' 126] + [/src/navier-stokes/centered.h:291: '0.' 132] = [0]
+ast/interpreter/overload.h:139: 'X0 + Delta': [/src/common.h:854: 'X0 = 0.' 127] = [1]
+/src/navier-stokes/centered.h:412: '_const_fm.z + _const_fm.z + 0.': [/src/navier-stokes/centered.h:412: '0.' 128] = [0]
+/src/viscosity.h:38: '2.*_const_mu.x*u.x[1] + 2.*_const_mu.x*u.x[-1]
+
+      + _const_mu.y*(u.x[0,1] +
+     (u.y[1] + u.y[1,1])/4. -
+     (u.y[-1] + u.y[-1,1])/4.)
+      - _const_mu.y*(- u.x[0,-1] +
+         (u.y[1,-1] + u.y[1])/4. -
+         (u.y[-1,-1] + u.y[-1])/4.)
+
+
+      + _const_mu.z*(u.x[0,0,1] +
+       (u.z[1] + u.z[1,0,1])/4. -
+       (u.z[-1] + u.z[-1,0,1])/4.)':  - [/src/viscosity.h:56: '1.' 134] + [/src/viscosity.h:56: '1.' 129] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 130] - [/src/utils.h:174: '0.' 131] = [0]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.':  + 0.5*[/src/utils.h:162: 'sum2 = 0.' 136] - [/src/utils.h:176: '0.' 193] - 0.5*[/src/utils.h:174: '0.' 131] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 143] + [/src/navier-stokes/centered.h:291: '0.' 132] = [0]
+/src/navier-stokes/centered.h:297: 'u.y[0,0,i] < 0.':  - [/src/navier-stokes/centered.h:297: '0.' 133] + [/src/utils.h:165: '1e30' 143] = [0]
+/src/viscosity.h:38: '2.*_const_mu.z*u.z[0,0,1] + 2.*_const_mu.z*u.z[0,0,-1]
+
+      + _const_mu.x*(u.z[1] +
+     (u.x[0,0,1] + u.x[1,0,1])/4. -
+     (u.x[0,0,-1] + u.x[1,0,-1])/4.)
+      - _const_mu.x*(- u.z[-1] +
+         (u.x[-1,0,1] + u.x[0,0,1])/4. -
+         (u.x[-1,0,-1] + u.x[0,0,-1])/4.)
+
+
+      + _const_mu.y*(u.z[0,1] +
+       (u.y[0,0,1] + u.y[0,1,1])/4. -
+       (u.y[0,0,-1] + u.y[0,1,-1])/4.)':  - [/src/viscosity.h:56: '1.' 135] + [/src/viscosity.h:56: '1.' 134] = [0]
+/src/viscosity.h:48: 'u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4.':  - [/src/viscosity.h:56: '1.' 139] + [/src/viscosity.h:56: '1.' 135] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 136] - [/src/utils.h:176: '0.' 137] = [0]
+isotropic.c:96: '(u.x[] + u.x[-1])/2. - ubar.x':  - [/src/utils.h:162: 'sum = 0.' 198] - 2*[/src/utils.h:176: '0.' 193] + [/src/utils.h:165: '1e30' 143] + [/src/utils.h:176: '0.' 137] = [0]
+/src/viscosity.h:38: '2.*_const_mu.y*u.y[0,1] + 2.*_const_mu.y*u.y[0,-1]
+
+      + _const_mu.z*(u.y[0,0,1] +
+     (u.z[0,1] + u.z[0,1,1])/4. -
+     (u.z[0,-1] + u.z[0,-1,1])/4.)
+      - _const_mu.z*(- u.y[0,0,-1] +
+         (u.z[0,1,-1] + u.z[0,1])/4. -
+         (u.z[0,-1,-1] + u.z[0,-1])/4.)
+
+
+      + _const_mu.x*(u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4. -
+       (u.x[0,-1] + u.x[1,-1])/4.)':  - [/src/viscosity.h:56: '1.' 138] + [/src/viscosity.h:56: '1.' 139] = [0]
+/src/viscosity.h:40: 'u.x[0,1] +
+     (u.y[1] + u.y[1,1])/4.':  - [/src/viscosity.h:56: '1.' 140] + [/src/viscosity.h:56: '1.' 139] = [0]
+/src/viscosity.h:48: 'u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4.': [/src/viscosity.h:56: '1.' 140] = [0]
+/src/poisson.h:88: 's[] += ds[]':  + [ast/interpreter/overload.h:168: 'pf[] = 0.' 141] - [/src/poisson.h:58: 's[] = 0.' 142] = [0]
+/src/poisson.h:88: 's[] += ds[]':  + [/src/poisson.h:58: 's[] = 0.' 142] - [/src/poisson.h:58: 's[] = 0.' 151] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 145] + [/src/utils.h:165: '1e30' 143] = [0]
+/src/utils.h:169: 'f[] > max':  - [/src/utils.h:162: 'max = -1e100' 144] + [/src/utils.h:162: 'min = 1e100' 145] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 153] - [/src/utils.h:162: 'min = 1e100' 145] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 146] - [/src/utils.h:174: '0.' 147] = [0]
+isotropic.c:96: '(u.y[] + u.y[0,-1])/2. - ubar.y':  - [/src/utils.h:162: 'sum = 0.' 203] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 153] + [/src/utils.h:174: '0.' 147] = [0]
+/src/viscosity.h:40: 'u.x[0,1] +
+     (u.y[1] + u.y[1,1])/4.':  + [/src/poisson.h:58: 's[] = 0.' 152] - [/src/poisson.h:58: 's[] = 0.' 148] = [0]
+/src/viscosity.h:48: 'u.x[0,0,1] +
+       (u.z[1] + u.z[1,0,1])/4.':  + [/src/poisson.h:58: 's[] = 0.' 152] - [/src/poisson.h:58: 's[] = 0.' 149] = [0]
+isotropic.c:76: 'cos(k*y)': [isotropic.c:73: 'k = 1.' 150] = [-1]
+/src/poisson.h:376: 'fabs (res[]) > maxres':  + [/src/poisson.h:410: '0.' 220] + [/src/poisson.h:58: 's[] = 0.' 151] - [/src/poisson.h:344: 'maxres = 0.' 217] = [0]
+/src/viscosity.h:48: 'u.y[1] +
+       (u.x[0,1] + u.x[1,1])/4.':  - [/src/grid/multigrid-common.h:28: 'sum = 0.' 153] + [/src/poisson.h:58: 's[] = 0.' 152] = [0]
+/src/viscosity.h:152: 'fabs (res.x[]) > maxres':  - [/src/viscosity.h:92: 'maxres = 0.' 157] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 153] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 154] - [/src/viscosity.h:92: 'maxres = 0.' 157] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 155] - [/src/viscosity.h:92: 'maxres = 0.' 157] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 159] + [/src/viscosity.h:92: 'maxres = 0.' 157] = [0]
+isotropic.c:140: '(t = 140)!=0': [isotropic.c:140: '0' 158] = [0,1]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 160] + [/src/bcg.h:46: '0.' 159] = [0]
+/src/poisson.h:161: 'sum += rhs[]':  + [/src/poisson.h:158: 'sum = 0.' 161] - [/src/bcg.h:53: '0.' 160] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 164] + [/src/poisson.h:158: 'sum = 0.' 161] = [0]
+/src/navier-stokes/centered.h:347: 'constant(mu.x) != 0.':  + [isotropic.c:29: 'MU = 0.01' 162] - [/src/navier-stokes/centered.h:347: '0.' 163] = [0]
+/src/viscosity.h:132: 'r.x[] - ((coord){1.,1.,1.}).x*u.x[] +
+        dt/_const_rho*(2.*_const_mu.x*(u.x[1] - u.x[])
+    - 2.*_const_mu.x*(u.x[] - u.x[-1])
+
+    + _const_mu.y*(u.x[0,1] - u.x[] +
+          (u.y[1] + u.y[1,1])/4. -
+          (u.y[-1] + u.y[-1,1])/4.)
+    - _const_mu.y*(u.x[] - u.x[0,-1] +
+       (u.y[1,-1] + u.y[1])/4. -
+       (u.y[-1,-1] + u.y[-1])/4.)
+
+
+    + _const_mu.z*(u.x[0,0,1] - u.x[] +
+     (u.z[1] + u.z[1,0,1])/4. -
+     (u.z[-1] + u.z[-1,0,1])/4.)
+    - _const_mu.z*(u.x[] - u.x[0,0,-1] +
+       (u.z[1,0,-1] + u.z[1])/4. -
+       (u.z[-1,0,-1] + u.z[-1])/4.)
+
+    )/sq(Delta)': [/src/navier-stokes/centered.h:347: '0.' 163] = [2,-1]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 166] + [/src/bcg.h:53: '0.' 164] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 165] + [/src/bcg.h:46: '0.' 166] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 170] + [/src/bcg.h:46: '0.' 166] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 167] + [/src/bcg.h:53: '0.' 170] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 168] - [/src/utils.h:176: '0.' 169] = [0]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.':  - [/src/utils.h:176: '0.' 208] - 0.5*[/src/utils.h:162: 'sum = 0.' 203] + 0.5*[/src/bcg.h:53: '0.' 170] + 0.5*[/src/utils.h:176: '0.' 169] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 172] + [/src/bcg.h:53: '0.' 170] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 171] + [/src/bcg.h:46: '0.' 172] = [0]
+/src/utils.h:165: 'f[] != 1e30':  - [/src/utils.h:165: '1e30' 175] + [/src/bcg.h:46: '0.' 172] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 173] + [/src/utils.h:165: '1e30' 175] = [0]
+/src/run.h:50: '(t = TEND_EVENT)!=0': [/src/run.h:50: '0' 174] = [0,1]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 177] + [/src/utils.h:165: '1e30' 175] = [0]
+ast/interpreter/overload.h:94: 'dt + 1e30': [ast/interpreter/overload.h:94: '1e30' 176] = [0,1]
+/src/utils.h:169: 'f[] > max':  - [/src/utils.h:162: 'max = -1e100' 179] + [/src/bcg.h:46: '0.' 177] = [0]
+ast/interpreter/overload.h:141: 'Z0 + Delta': [/src/common.h:854: 'Z0 = 0.' 178] = [1]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 180] + [/src/utils.h:162: 'max = -1e100' 179] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 181] + [/src/bcg.h:46: '0.' 180] = [0]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 182] + [/src/bcg.h:53: '0.' 181] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 186] + [/src/bcg.h:53: '0.' 182] = [0]
+/src/utils.h:176: 'sum2 > 0.':  + [/src/utils.h:162: 'sum2 = 0.' 183] - [/src/utils.h:176: '0.' 184] = [0]
+/src/utils.h:175: 'sum2 -= sum*sum/volume':  - 2*[/src/utils.h:162: 'sum = 0.' 194] + [/src/utils.h:162: 'volume = 0.' 190] + [/src/utils.h:176: '0.' 184] = [0]
+ast/interpreter/overload.h:140: 'Y0 + Delta': [/src/common.h:854: 'Y0 = 0.' 185] = [1]
+/src/bcg.h:53: 'wn < 0.':  - [/src/bcg.h:53: '0.' 188] + [/src/bcg.h:46: '0.' 186] = [0]
+/src/bcg.h:46: 'vn < 0.':  - [/src/bcg.h:46: '0.' 187] + [/src/bcg.h:53: '0.' 188] = [0]
+/src/utils.h:170: 'f[] < min':  - [/src/utils.h:162: 'min = 1e100' 189] + [/src/bcg.h:53: '0.' 188] = [0]
+isotropic.c:96: 'av.x[] += a*((u.x[] + u.x[-1])/2. - ubar.x)':  - [isotropic.c:94: 'a = 0.1' 200] + [/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] - [/src/utils.h:162: 'min = 1e100' 189] = [0]
+/src/utils.h:174: 'volume > 0.':  + [/src/utils.h:162: 'volume = 0.' 190] - [/src/utils.h:174: '0.' 191] = [0]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.':  - [/src/utils.h:176: '0.' 197] + [/src/utils.h:162: 'sum = 0.' 194] - [/src/utils.h:174: '0.' 191] = [0]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [-3] + [isotropic.c:94: 'a = 0.1' 200] - [/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] + [/src/utils.h:162: 'sum = 0.' 192] = [0]
+/src/utils.h:175: 'sum2 -= sum*sum/volume':  + 2*[isotropic.c:94: 'a = 0.1' 200] - 2*[/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] + 2*[/src/utils.h:176: '0.' 193] = [0]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [-3] - [/src/utils.h:176: '0.' 197] + [/src/utils.h:162: 'sum = 0.' 194] = [0]
+/src/bcg.h:36: '_const_fm.y*Delta + 0.': [/src/bcg.h:36: '0.' 195] = [1]
+/src/bcg.h:36: '_const_fm.x*Delta + 0.': [/src/bcg.h:36: '0.' 196] = [1]
+isotropic.c:96: '(u.z[] + u.z[0,0,-1])/2. - ubar.z':  - [isotropic.c:94: 'a = 0.1' 200] + [/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] - [/src/utils.h:176: '0.' 197] = [0]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [-3] + [isotropic.c:94: 'a = 0.1' 200] - [/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] + [/src/utils.h:162: 'sum = 0.' 198] = [0]
+/src/bcg.h:36: '_const_fm.x*Delta + 0.': [/src/bcg.h:36: '0.' 199] = [1]
+/src/navier-stokes/centered.h:384: '((u.x[] + u.x[0 -1])/2.) + dt*a.x[]': [isotropic.c:94: 'a = 0.1' 200] = [0,-1]
+isotropic.c:96: 'av.y[] += a*((u.y[] + u.y[0,-1])/2. - ubar.y)':  + [/src/navier-stokes/centered.h:360: 'af.y[] = 0.' 204] - [/src/navier-stokes/centered.h:360: 'af.x[] = 0.' 201] = [0]
+/src/bcg.h:36: '_const_fm.y*Delta + 0.': [/src/bcg.h:36: '0.' 202] = [1]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [-3,-1] + [/src/utils.h:162: 'sum = 0.' 203] - [/src/navier-stokes/centered.h:360: 'af.y[] = 0.' 204] = [0]
+isotropic.c:96: 'av.z[] += a*((u.z[] + u.z[0,0,-1])/2. - ubar.z)':  + [/src/navier-stokes/centered.h:360: 'af.z[] = 0.' 209] - [/src/navier-stokes/centered.h:360: 'af.y[] = 0.' 204] = [0]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 205] = [3]
+/src/navier-stokes/centered.h:180: 'u.x[] == Delta/t': [ast/interpreter/overload.h:168: 'u.x[] = 0.' 206] = [1,-1]
+/src/bcg.h:36: '_const_fm.z*Delta + 0.': [/src/bcg.h:36: '0.' 207] = [1]
+/src/utils.h:175: 'sum2 -= sum*sum/volume': [0,-2] + 2*[/src/utils.h:176: '0.' 208] - 2*[/src/navier-stokes/centered.h:360: 'af.z[] = 0.' 209] = [0]
+/src/poisson.h:479: 'div[] += uf.x[1] - uf.x[]': [0,-1] + [/src/poisson.h:477: 'div[] = 0.' 214] - [/src/navier-stokes/centered.h:360: 'af.z[] = 0.' 209] = [0]
+/src/bcg.h:36: '_const_fm.z*Delta + 0.': [/src/bcg.h:36: '0.' 210] = [1]
+/src/navier-stokes/centered.h:180: 'u.y[] == Delta/t': [ast/interpreter/overload.h:168: 'u.y[] = 0.' 211] = [1,-1]
+/src/bcg.h:36: '_const_fm.y*Delta + 0.': [/src/bcg.h:36: '0.' 212] = [1]
+/src/navier-stokes/centered.h:180: 'u.z[] == Delta/t': [ast/interpreter/overload.h:168: 'u.z[] = 0.' 213] = [1,-1]
+/src/timestep.h:7: 'u.x[] != 0.':  - [/src/timestep.h:7: '0.' 230] + [/src/poisson.h:477: 'div[] = 0.' 214] = [0]
+/src/bcg.h:36: '_const_fm.x*Delta + 0.': [/src/bcg.h:36: '0.' 215] = [1]
+/src/poisson.h:195: 'resb/s.resa > 10':  + [/src/poisson.h:344: 'maxres = 0.' 216] - [/src/poisson.h:344: 'maxres = 0.' 217] - [/src/poisson.h:195: '10' 218] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 221] - [/src/poisson.h:344: 'maxres = 0.' 217] = [0]
+/src/poisson.h:193: 'resb/s.resa < 1.2':  - [/src/poisson.h:193: '1.2' 219] + [/src/poisson.h:195: '10' 218] = [0]
+/src/poisson.h:195: 'resb/s.resa > 10':  + [/src/poisson.h:344: 'maxres = 0.' 222] - [/src/poisson.h:195: '10' 223] - [/src/grid/multigrid-common.h:28: 'sum = 0.' 221] - [/src/poisson.h:193: '1.2' 219] = [0]
+/src/poisson.h:368: 'res[] += (_const_alpha.z*((a[] - a[0,0,0 -1])/Delta) -
+  _const_alpha.z*((a[0,0,1] - a[0,0,1 -1])/Delta))/Delta': [/src/poisson.h:410: '0.' 220] = [-2]
+/src/poisson.h:376: 'fabs (res[]) > maxres':  - [/src/poisson.h:344: 'maxres = 0.' 222] + [/src/poisson.h:195: '10' 223] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 221] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  - [/src/poisson.h:344: 'maxres = 0.' 222] + [/src/poisson.h:195: '10' 223] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 226] = [0]
+/src/poisson.h:193: 'resb/s.resa < 1.2':  - [/src/poisson.h:193: '1.2' 224] + [/src/poisson.h:195: '10' 223] = [0]
+/src/poisson.h:376: 'fabs (res[]) > maxres': [/src/poisson.h:193: '1.2' 224] = [0]
+/src/poisson.h:368: 'res[] += (_const_alpha.x*((a[] - a[0 -1])/Delta) -
+  _const_alpha.x*((a[1] - a[1 -1])/Delta))/Delta': [/src/poisson.h:410: '0.' 225] = [-2]
+/src/poisson.h:499: 'uf.x[] -= dt*_const_alpha.x*((p[] - p[0 -1])/Delta)': [-1,-1] + [/src/timestep.h:7: '0.' 230] - [/src/grid/multigrid-common.h:28: 'sum = 0.' 226] = [0]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 227] = [3]
+/src/bcg.h:36: '_const_fm.z*Delta + 0.': [/src/bcg.h:36: '0.' 228] = [1]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 232] - [/src/poisson.h:344: 'maxres = 0.' 229] = [0]
+/src/poisson.h:479: 'div[] += uf.z[0,0,1] - uf.z[]':  + [/src/poisson.h:477: 'div[] = 0.' 231] - [/src/timestep.h:7: '0.' 230] = [0]
+/src/navier-stokes/centered.h:288: 'u.z[0,0,i] + (g.z[] + g.z[0,0,-1])*dt/4.': [0,-1] - [ast/interpreter/overload.h:168: 'g.z[] = 0.' 233] + [/src/poisson.h:477: 'div[] = 0.' 231] = [0]
+/src/poisson.h:376: 'fabs (res[]) > maxres':  - [/src/poisson.h:344: 'maxres = 0.' 234] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 232] = [0]
+/src/navier-stokes/centered.h:288: 'u.y[0,i] + (g.y[] + g.y[0,-1])*dt/4.':  - [ast/interpreter/overload.h:168: 'g.y[] = 0.' 235] + [ast/interpreter/overload.h:168: 'g.z[] = 0.' 233] = [0]
+/src/grid/multigrid-common.h:30: 'sum += s[]':  + [/src/grid/multigrid-common.h:28: 'sum = 0.' 240] - [/src/poisson.h:344: 'maxres = 0.' 234] = [0]
+/src/timestep.h:7: 'u.y[] != 0.': [0,1] - [/src/timestep.h:7: '0.' 236] + [ast/interpreter/overload.h:168: 'g.y[] = 0.' 235] = [0]
+/src/navier-stokes/centered.h:288: 'u.x[i] + (g.x[] + g.x[-1])*dt/4. + s*(1. - s*un)*du.x[i]*Delta/2.': [/src/timestep.h:7: '0.' 236] = [1,-1]
+/src/poisson.h:193: 'resb/s.resa < 1.2': [/src/poisson.h:193: '1.2' 237] = [0]
+/src/poisson.h:195: 'resb/s.resa > 10': [/src/poisson.h:195: '10' 238] = [0]
+/src/navier-stokes/centered.h:288: 'u.x[i] + (g.x[] + g.x[-1])*dt/4.': [ast/interpreter/overload.h:168: 'g.x[] = 0.' 239] = [1,-2]
+/src/poisson.h:376: 'fabs (res[]) > maxres':  - [/src/poisson.h:344: 'maxres = 0.' 249] + [/src/grid/multigrid-common.h:28: 'sum = 0.' 240] = [0]
+/src/timestep.h:7: 'u.z[] != 0.': [/src/timestep.h:7: '0.' 241] = [1,-1]
+/src/timestep.h:7: 'u.y[] != 0.': [/src/timestep.h:7: '0.' 242] = [1,-1]
+/src/timestep.h:7: 'u.x[] != 0.': [/src/timestep.h:7: '0.' 243] = [1,-1]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [/src/utils.h:162: 'sum = 0.' 244] = [4,-1]
+/src/utils.h:166: 'volume += (cube(Delta)*_const_cm)': [/src/utils.h:162: 'sum = 0.' 245] = [4,-1]
+/src/timestep.h:7: 'u.z[] != 0.': [/src/timestep.h:7: '0.' 246] = [1,-1]
+isotropic.c:114: 'vol += (cube(Delta)*_const_cm)': [isotropic.c:112: 'vol = 0.' 247] = [3]
+/src/utils.h:175: 'sum2 -= sum*sum/volume': [/src/utils.h:176: '0.' 248] = [1,-1]
+/src/navier-stokes/centered.h:403: '_const_fm.x*a.x[] - _const_alpha.x*(p[] - p[-1])/Delta': [/src/poisson.h:344: 'maxres = 0.' 249] = [0,-2]
+/src/poisson.h:193: 'resb/s.resa < 1.2': [/src/poisson.h:193: '1.2' 250] = [0]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 251] = [3]
+/src/utils.h:175: 'sum2 -= sum*sum/volume': [/src/utils.h:176: '0.' 252] = [1,-1]
+/src/poisson.h:195: 'resb/s.resa > 10': [/src/poisson.h:195: '10' 253] = [0]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 254] = [3]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 255] = [3]
+/src/utils.h:176: 'sum2 > 0. ? sqrt(sum2/volume) : 0.': [/src/utils.h:176: '0.' 256] = [1,-1]
+/src/utils.h:165: '(cube(Delta)*_const_cm) > 0.': [/src/utils.h:165: '0.' 257] = [3]
+isotropic.c:119: 'vd += (cube(Delta)*_const_cm)*(sq(u.x[1] - u.x[-1]) +
+    sq(u.x[0,1] - u.x[0,-1]) +
+    sq(u.x[0,0,1] - u.x[0,0,-1]))/sq(2.*Delta)': [isotropic.c:112: 'vd = 0.' 258] = [3,-2]
+isotropic.c:117: 'ke += (cube(Delta)*_const_cm)*sq(u.x[] - ubar.x)': [isotropic.c:112: 'ke = 0.' 259] = [5,-2]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 260] = [0]
+/src/navier-stokes/centered.h:288: '1. - s*un': [/src/navier-stokes/centered.h:288: '1.' 261] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 262] = [0]
+/src/navier-stokes/centered.h:288: '1. - s*un': [/src/navier-stokes/centered.h:288: '1.' 263] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 264] = [0]
+/src/navier-stokes/centered.h:288: '1. - s*un': [/src/navier-stokes/centered.h:288: '1.' 265] = [0]
+/src/poisson.h:161: 'sum += rhs[]': [/src/poisson.h:158: 'sum = 0.' 266] = [0,-2]
+/src/poisson.h:161: 'sum += rhs[]': [/src/poisson.h:158: 'sum = 0.' 267] = [0,-2]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 268] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 269] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 270] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 271] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 272] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 273] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 274] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 275] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 276] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 277] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 278] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 279] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 280] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 281] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 282] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 283] = [0]
+ast/interpreter/overload.h:480: 'x > 0': [ast/interpreter/overload.h:480: '0' 284] = [0]
+/src/bcg.h:38: '1. - s*un': [/src/bcg.h:38: '1.' 285] = [0]
+/src/timestep.h:15: 'dt < dtmax': [/src/navier-stokes/centered.h:129: 'CFL = 0.8' 286] = [0]

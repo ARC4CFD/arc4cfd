@@ -25,7 +25,7 @@ for i in 1 2 4 6 8 12 16 20 24 28 32; do
     cd $case
     sed -i "s/numberOfSubdomains.*/numberOfSubdomains ${i};/" system/decomposeParDict	#using right no. of procs
     sed -i "s/1 1 .*);/1 1 ${i});/" system/decomposeParDict	#divide the domain in Z direction into as many number of procs 
-    if [ $i -eq 1 ]; then       #if serial, run AllrunSerial
+    if [ $i -eq 1 ]; then       #if only one processor, run AllrunSerial
        ./AllrunSerial
     else
        ./Allrun

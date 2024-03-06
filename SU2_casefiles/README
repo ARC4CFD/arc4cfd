@@ -1,4 +1,6 @@
+SU2 cases are stored in folders Coarse, Intermediate and Fine.
 Each folder contains mesh generation file (.geo), SU2 configuration (.cfg) file, batch job script file (su2job_StdEnv.sh & su2job_NiaEnv.sh) and sample results in .mp4 format. 
 In the results, reattachment corresponds to a visual representation of Figure 3 in : Le, H., Moin, P., & Kim, J. (1997). Direct numerical simulation of turbulent flow over a backward-facing step. Journal of fluid mechanics, 330, 349-374.
 
+Results for scaling analysis, performed using coarse mesh in NiaEnv SU2 v8, is stored in Scaling folder.
 The setup of the cases are detailed in Turbulent-flow-over-Backward-facing-step.pdf

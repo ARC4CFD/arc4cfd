@@ -10,7 +10,7 @@ TIME_STEP= 1e-4   # Line 118
 TIME_ITER= 5000   # Line 120 : TIME_ITER = Simulation_End_Time / TIME_STEP
 OUTPUT_FILES= (RESTART, PARAVIEW)  # Line 242 : No change required
 OUTPUT_WRT_FREQ= 3800, 20          # Line 243 : Set iterations at which (RESTART, PARAVIEW) files are to be written
-                                   # OUTPUT_WRT_FREQ = Restart_File_Time_interval * TIME_STEP, Snapshot_Time_Interval * TIME_STEP
+                                   # OUTPUT_WRT_FREQ = Restart_File_Time_interval / TIME_STEP, Snapshot_Time_Interval / TIME_STEP
                                    
 # Domain Decomposition: SU2 modules in Compute Canada clusters are fully-parallel suites. 
 # SU2_CFD can be executed in parallel using mpirun command, without making specific changes to .cfg file.

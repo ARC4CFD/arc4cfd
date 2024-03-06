@@ -6,10 +6,10 @@
 
 # Set : Time Step, Simulation End Time (Total iterations), Snapshot Time Interval
 vim Backstep_str_config.cfg
-TIME_STEP= 1e-4   # Line 118
-TIME_ITER= 5000   # Line 120 : TIME_ITER = Simulation_End_Time / TIME_STEP
+TIME_STEP= 2e-5   # Line 118
+TIME_ITER= 25000   # Line 120 : TIME_ITER = Simulation_End_Time / TIME_STEP
 OUTPUT_FILES= (RESTART, PARAVIEW)  # Line 242 : No change required
-OUTPUT_WRT_FREQ= 3800, 20          # Line 243 : Set iterations at which (RESTART, PARAVIEW) files are to be written
+OUTPUT_WRT_FREQ= 20000, 100          # Line 243 : Set iterations at which (RESTART, PARAVIEW) files are to be written
                                    # OUTPUT_WRT_FREQ = Restart_File_Time_interval / TIME_STEP, Snapshot_Time_Interval / TIME_STEP
                                    
 # Domain Decomposition: SU2 modules in Compute Canada clusters are fully-parallel suites. 

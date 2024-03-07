@@ -31,6 +31,12 @@ mpirun -n 20 SU2_CFD Backstep_str_config.cfg
 vim '+set ff=unix' '+x' su2job_StdEnv.sh   # Setting file format to Unix
 sbatch su2job_StdEnv.sh
 
+# Live plot of residuals
+# cd into folder placed in run directory
+vim history.csv   # confirm that at least 1 data row is added to history.csv
+module load gnuplot
+gnuplot plot_residuals.gp
+
 
 
 

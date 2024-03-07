@@ -5,6 +5,7 @@
 # cd into the folder placed in run directory
 
 # Set : Time Step, Simulation End Time (Total iterations), Snapshot Time Interval
+# Following values are default in this git repo; changes can be made based on user-estimated settings
 vim Backstep_str_config.cfg
 TIME_STEP= 1e-4   # Line 118
 TIME_ITER= 5000   # Line 120 : TIME_ITER = Simulation_End_Time / TIME_STEP

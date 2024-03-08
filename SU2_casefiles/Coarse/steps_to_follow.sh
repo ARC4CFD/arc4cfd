@@ -5,6 +5,7 @@
 # cd into the folder placed in run directory
 
 # Set : Time Step, Simulation End Time (Total iterations), Snapshot Time Interval
+# Following values are default in this git repo; changes can be made based on user-estimated settings
 vim Backstep_str_config.cfg
 TIME_STEP= 1e-4   # Line 118
 TIME_ITER= 5000   # Line 120 : TIME_ITER = Simulation_End_Time / TIME_STEP
@@ -30,6 +31,12 @@ mpirun -n 20 SU2_CFD Backstep_str_config.cfg
 # Main Job in StdEnv
 vim '+set ff=unix' '+x' su2job_StdEnv.sh   # Setting file format to Unix
 sbatch su2job_StdEnv.sh
+
+# Live plot of residuals
+# cd into folder placed in run directory
+vim history.csv   # confirm that at least 1 data row is added to history.csv
+module load gnuplot
+gnuplot plot_residuals.gp
 
 
 

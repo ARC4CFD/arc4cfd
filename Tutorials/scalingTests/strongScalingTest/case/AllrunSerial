@@ -4,9 +4,5 @@ cd "${0%/*}" || exit                                # Run from this directory
 #------------------------------------------------------------------------------
 
 cp -r 0.orig 0
-
-runApplication decomposePar
-
-runParallel $(getApplication)
-
+pimpleFoam> log.pimpleFoam
 #------------------------------------------------------------------------------

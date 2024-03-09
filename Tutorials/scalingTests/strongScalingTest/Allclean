@@ -1,0 +1,4 @@
+#remove all directories created during previous scaling test
+rm -rf bfs[0-9]*
+#remove all mesh files created during previous scaling test
+rm -f mesh/bfs[1-9]* mesh/bfs.msh

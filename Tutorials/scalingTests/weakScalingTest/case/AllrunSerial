@@ -13,11 +13,6 @@ cd "${0%/*}" || exit                                # Run from this directory
     sed -i -e '/cyclic/,/nFaces/{/type .*/a'"\\\tinGroups        1(cyclic);" -e '}' constant/polyMesh/boundary
     sed -i -e '/wall_/,/}/{/type .*/a'"\\\tinGroups        1(wall);" -e '}' constant/polyMesh/boundary
     #### script to modify boundary file to reflect boundary conditions#############
-
 cp -r 0.orig 0
-
-runApplication decomposePar
-
-runParallel $(getApplication)
-
+pimpleFoam> log.pimpleFoam
 #------------------------------------------------------------------------------

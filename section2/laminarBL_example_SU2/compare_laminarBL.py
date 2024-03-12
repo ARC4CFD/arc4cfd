@@ -63,6 +63,10 @@ data6565_s=np.loadtxt("65x65/stretched/result.dat", unpack=True)
 data6565_u=np.loadtxt("65x65/uniform/result.dat", unpack=True)
 data65130_u=np.loadtxt("65x130/results.dat", unpack=True)
 
+
+
+
+
 plt.plot(data6533_u[1],data6533_u[0],label="65x33 uniform", color="b", alpha=0.25, lw=2)
 plt.plot(data6565_u[1],data6565_u[0],label="65x65 uniform", color="b", alpha=0.5, lw=2)
 plt.plot(data65130_u[1],data65130_u[0],label="65x130 uniform", color="b", lw=2)

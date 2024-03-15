@@ -55,23 +55,21 @@ mpl.rcParams.update(nice_fonts)
 plt.figure(figsize=set_size(width))
 
 
-dataGraham=np.loadtxt("SSTResults_graham.dat",unpack=True,skiprows=2)
-dataNiagara=np.loadtxt("SSTResults_niagara.dat",unpack=True,skiprows=2)
+dataNiagara=np.loadtxt("WSTResults.dat",unpack=True,skiprows=2)
 
 fig, ax1 = plt.subplots()
 
 
-ax1.plot(dataGraham[0,:],dataGraham[1,0]/dataGraham[1,:], color="b", lw=3,label="Graham")
 
-ax1.plot(dataNiagara[0,:],dataNiagara[1,0]/dataNiagara[1,:], color="r", lw=3,label="Niagara")
-ax1.plot([0,30],[0,30],"k:",label="Theoretical speedup")
+ax1.plot(dataNiagara[0,:],dataNiagara[1,0]/(dataNiagara[1,:]), color="r", lw=3,label="Niagara")
+ax1.plot([0,30],[1,1],"k:",label="weak scaling speedup")
 
 
 ax1.set_xlabel(r"nb processors")
-ax1.set_ylabel(r"speedup")
+ax1.set_ylabel(r"weak speedup")
 fig.legend() 
 #%plt.xlim(0,1)
 fig.tight_layout()
 
-plt.savefig("ARC4CFD_strongScaling_openFoam.png")
+plt.savefig("ARC4CFD_weakScaling_openFoam.png")
 plt.show()

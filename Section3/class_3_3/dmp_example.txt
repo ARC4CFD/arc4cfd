@@ -1,0 +1,56 @@
+### Data management plan for CFD
+#### LES validation of the backward-facing step 
+The research project seeks to validate a simulation of a backward-facing step and compare against:  Jovic and Driver (1994). An LES-based CFD simulation using OpenFoam (22.04) will be run using a mesh generated from GMsh.
+
+**Administrative information:** This project is developed by Prof. XXXXXXX (email) with the involvement of PhD students YYYYY and ZZZZZ and is funded through a NSERC-Alliance project (123456).
+
+**Description of the data:** The data generated as part of this project include:
+- Preliminary calculations (pdf of hand-written notes)
+- A priori estimate of HPC costs (excel sheet and handwritten notes)
+- Mesh input and output file (input: ASCII text file from GMsh; output: CGNS) 
+- Input/boundary conditions (text files organized in openFoam data structure)
+- Raw simulation data (.vtk formatted data)
+- Postprocessed data (.vtk and ASCII formatted data files)
+- Research code and postprocessing code (C and Python code in ASCII)
+
+**Storage and backup during the research process**:
+The research data (except simulation data) will be stored on the local computers of YYYYYYY and ZZZZZZ with a continual backup to the Cloud using a shared Dropbox. Additionally, every Friday, the researchers will conduct a systematic backup of all their research files to the local research group NAS.
+
+The raw simulation data will include storage of 75 snapshots (each about 50 Gb files) during the research project phase that will be initially written to /Scratch/ and then transferred to /Project/. These hot data will be used actively during the expected 3 months of the project.
+
+**Data structure and naming convention**:
+The file data structure will include the following folders:
+    - preliminary_calculations
+    - mesh_generation
+    - input_files
+    - simulation_results (only contains links to data)
+    - postprocessing
+
+Each folder will include a README file that will further guide the user within that folder. The file naming convention aim to have descriptive terminology (using a camelCase format), tool, date format of YYMMDD, and author initials. Therefore, an example for a mesh input file would be:
+```python 
+meshInput_fine_GMSH_240331_JPH.txt
+```
+The preliminary calculations might read:
+```python 
+prelimCalc_yplusEstimate_HandNotes_240123.pdf 
+```
+The simulation data will follow the file data structure and naming conventions used in OpenFoam.
+
+
+**Storage, archival and sharing**:
+At the end of the project, the data will be curated and stored. From the 75 hot data snapshots (50 Gb each), we will store to disk only 25 at equally spaced snapshots. This will be archived by the PI in room 1234 at the University of Waterloo. The data transfer will be done via Globus to about 3 external hard drives. A backup of only five snapshots will be archived to the University's storage repository.
+
+It is anticipated that a subset of the data will be available on https://www.frdr-dfdr.ca/repo/. The data will include the necessary documentation (README and metadata), link to the paper, postprocessed results (and scripts), figures, and 3 raw-data snapshots. 
+
+The data will be made available under a Creative Common license (Attribution-NonCommercial-ShareAlike 4.0 International). Result data will be stored in a VTK format to facilitate exchanges and reuse.
+
+**Data security**: Multiple backups following a 3-2-1 strategy will mitigate data loss. There are no other security concerns with these data.
+
+**Ethical aspects**: N/A
+
+**Responsibilities**: The students YYYY and ZZZZZ have the responsibility to continually back up the data and manage the weekly storage to the NAS. The PI will keep an eye on data backup during the research phase. 
+
+Archival storage and sharing will be under the PI's responsibility. 
+
+**Cost**: The anticipated storage will have a one-time cost of NNNN with an annual data storage cost of XXX.
+

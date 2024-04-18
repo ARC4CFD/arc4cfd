@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CFDsimulation>
+  <DOI>
+    https://doi.org/xxxx
+  </DOI>
+  <overview>
+    <title>Backward facing step at Re_theta=5000</title>
+    <ID>BFS_LES_Re5k</ID>
+    <description>LES of a backward facing step that reproduces the experimental results by  Jovic and Driver (1994) and the numerical results from  Le et al (1997). </description>
+    <comparative_data>https://doi.org/xxxx/BFS_LES_Re5k_validationData.dat</comparative_data>
+  </overview>
+  <preliminary_calculations>
+    <calculation_fname>https://doi.org/xxxx/BFS_LES_Re5k_preliminaryCalcs.dat</calculation_fname>
+  </preliminary_calculations>
+  <mesh>
+    <title>BFS_LES_Re5k_shearResolved</title>
+    <author>Nipin Lokanathan</author>
+    <meshType>structured</meshType>
+    <meshFormat>SU2</meshFormat>
+    <meshSize>12400234</meshSize>
+    <meshTool>GMSH</meshTool>
+   </mesh>
+  <solver>
+    <name>SU2</name>
+    <version>18.04</version>
+    <githash>29932f3915935d773dc8d52c292cadd81c81071d</githash>
+    <compilation> </compilation>
+  </solver>
+  <numerics>
+    <scheme>WENO5thOrder</scheme>
+  </numerics>
+  <initial_conditions>
+    < .... >
+  </initial_conditions>
+  <boundary_conditions>
+        < .... >
+  </boundary_conditions>
+  <output>
+        < .... >
+  </output>
+  <HPCsystem>
+        < .... >
+  </HPCsystem>
+</CFDsimulation>
